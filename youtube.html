@@ -2,8 +2,15 @@
 <html>
 <head>
     <title>youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
+        p{
+            font-family: Roboto, Arial;
+            margin: 0px;
+        }
         .thumbnail {
             width: 300px;
         }
@@ -26,6 +33,10 @@
         }
         .title1 {
             margin: 0px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+
         }
 
         .channel-pic1 {
@@ -46,15 +57,22 @@
         }
 
         .auth1 {
-            font-size: 18px;
-            color: gray;
+            font-size: 12px;
+            color: rgb(96, 96, 96);
             display: inline-block;
+            margin-bottom: 1px;
+            margin-top: 10px;
+
         }
 
         .info1 {
-            font-size: 16px;
-            color: gray;
+            font-size: 12px;
+            color: rgb(96, 96, 96);
             display: inline-block;
+            margin-top: 3px;
+        }
+        .thumbnail-row {
+            margin-bottom: 12px;
         }
     </style>
 </head>
@@ -66,7 +84,7 @@
     <!-- First Video -->
     <div class="preview1">
 
-        <div>
+        <div class="thumbnail-row">
             <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
         </div>
 
@@ -95,29 +113,39 @@
     </div>
 
     <!-- Second Video -->
-    <div class="preview2">
+    <div class="preview1">
 
-        <div>
+        <div class="thumbnail-row2">
             <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
         </div>
 
         <div>
 
-            <p class="title2">
-                Try Not To Laugh Challenge #9
-            </p>
+            <div class="channel-pic2">
+                <img class="profile2" src="channel-pic/channel-2.jpeg">
+            </div>
 
-            <p class="auth2">
-                Markiplier
-            </p>
+            <div class="video-info2">
+                <p class="title2">
+                    
+                 Try Not To Laugh Challenge #9
 
-            <p class="info2">
-                19M views &#183; 4 years ago
-            </p>
+
+                </p>
+
+                <p class="auth2">
+                    Markiplier
+                </p>
+
+                <p class="info2">
+                    19M views &#183; 4 years ago
+                </p>
+            </div>
 
         </div>
 
     </div>
+
 
 </body>
 </html>
