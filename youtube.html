@@ -14,7 +14,6 @@
             }
             .title1{
                 font-size: 20px;
-                font-weight: bold;
                 width: 300px;
             }
             .auth1{
@@ -37,6 +36,19 @@
                 display: inline-block;
                 vertical-align: top;
             }
+            .channel-pic1{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: inline-block;
+                vertical-align: top;
+            }
+            .video-info{
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 10px;
+                width: 250px;
+            }
 
         </style>
 
@@ -46,18 +58,25 @@
         <input class="search-bar" type="text" placeholder="Search">
         
         <div class="preview1">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-        <p class="title1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-        <p class="auth1">Marques Brownlee</p>
-        <p class="info1">3.4M views &#183; 2 years ago</p>
-
+            <div><img class="thumbnail" src="thumbnails/thumbnail-1.webp"></div>
+            <div>
+                <div class="channel-pic1"><img src="channel-pic/channel-1.jpeg"></div>
+                <div class="video-info">
+                <p class="title1">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                <p class="auth1">Marques Brownlee</p>
+                <p class="info1">3.4M views &#183; 2 years ago</p>
+            </div>
+        </div>
+                
+                
         </div>
 
          <div class="preview2">
-        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-        <p class="title2">Try Not To Laugh Challenge #9</p>
+            <div><img class="thumbnail" src="thumbnails/thumbnail-2.webp"></div>
+        <div><p class="title2">Try Not To Laugh Challenge #9</p>
         <p class="auth2">Markiplier</p>
         <p class="info2">19M views &#183; 4 years ago</p>
+        </div>
 
         </div>
     </body>
