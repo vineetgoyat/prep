@@ -49,7 +49,7 @@
     
 }
 
-.search-button,.mic-button,.upload-icons-container{
+.search-button,.mic-button,.upload-icons-container,.apps-icon-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +60,8 @@
 
 .search-button .tooltip,
 .mic-button .tooltip,
-.upload-icons-container .tooltip{
+.upload-icons-container .tooltip,
+.apps-icon-container .tooltip{
     position:absolute;
     background-color: gray;
     color:white;
@@ -80,7 +81,8 @@
 
 .search-button:hover .tooltip,
 .mic-button:hover .tooltip,
-.upload-icons-container:hover .tooltip{
+.upload-icons-container:hover .tooltip,
+.apps-icon-container:hover .tooltip{
     opacity: 1;
 }
 
