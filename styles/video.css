@@ -34,11 +34,11 @@
 
 
 .profile1 {
-    width: 40px;
+    width: 36px;
     border-radius: 50%;
 }
 .profile2 {
-    width: 40px;
+    width: 36px;
     border-radius: 50%;
 }
 
@@ -48,7 +48,7 @@
     color: rgb(96, 96, 96);
     display: inline-block;
     margin-bottom: 1px;
-    margin-top: 1
+    margin-top: 10px;
 }
 .auth2 {
     font-size: 12px;
@@ -72,7 +72,7 @@
     margin-top: 3px;
 }
 .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 }
 .video-info-grid {
