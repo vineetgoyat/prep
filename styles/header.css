@@ -49,13 +49,18 @@
     
 }
 
-.search-button{
+.search-button,.mic-button,.upload-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
+    
 
 }
 
 .search-button .tooltip,
-.mic-button .tooltip{
+.mic-button .tooltip,
+.upload-icons-container .tooltip{
     position:absolute;
     background-color: gray;
     color:white;
@@ -65,14 +70,17 @@
     padding-right: 8px;
     border-radius: 4px;
     font-size: 12px;
-    bottom: -23px;
+    bottom: -30px;
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
+    white-space: nowrap;
+    font-family: Roboto, Arial;
 }
 
 .search-button:hover .tooltip,
-.mic-button:hover .tooltip{
+.mic-button:hover .tooltip,
+.upload-icons-container:hover .tooltip{
     opacity: 1;
 }
 .search-bar::placeholder{
@@ -102,7 +110,6 @@
 }   
 .mic-icon{
     height: 24px;
-    margin-top: 4px;
 }
 
 .right-section{
