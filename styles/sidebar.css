@@ -7,7 +7,7 @@
     width: 72px;
 }
 .sidebar-link{
-    background-color:pink;
+    background-color:white;
     color:black;
     display: flex;
     align-items: center;
@@ -16,4 +16,10 @@
 }
 .sidebar:hover{
     background-color: rgb(235, 235, 235);
+}
+.sidebar-icons{
+    height:3px;
+}
+.sidebar-text{
+    height:10px;
 }
