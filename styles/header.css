@@ -100,3 +100,20 @@
 .profile-icon{
     height: 32px;
 }
+
+.notifications-icons-container{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    color: white;
+    background-color: red;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    right: 0;
+
+}
