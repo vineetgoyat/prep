@@ -7,12 +7,11 @@
     width: 72px;
 }
 .sidebar-link{
-    background-color:white;
-    color:gray;
     display: flex;
-    height: 93px;
-    align-items: center;
+    height: 75px;
     justify-content:center;
+    align-items: center;
+    flex-direction: column;
 
 }
 .sidebar:hover{
@@ -21,9 +20,11 @@
 
 .sidebar-link img{
     height:24px;
+    margin-bottom: 4px;
     
 }
 .sidebar-link div{
     font-family: Roboto, Arial;
-    font-size: 12px;
+    font-size: 10px;
+
 }
