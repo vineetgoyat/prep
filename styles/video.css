@@ -90,7 +90,10 @@
 }
 .video-time1{
     font-family: Roboto, Arial;
+    font-weight: 500;
     font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 2px;
     position:absolute;
     background-color: black;
     color: white;
