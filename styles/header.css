@@ -46,10 +46,16 @@
     box-shadow: inset 1px 2px 3px rgb(0, 0, 0, 0.05);
     width: 0;
 
-    position: relative;
+    
 }
 
-.search-button .tooltip{
+.search-button{
+    position: relative;
+
+}
+
+.search-button .tooltip,
+.mic-button .tooltip{
     position:absolute;
     background-color: gray;
     color:white;
@@ -59,6 +65,15 @@
     padding-right: 8px;
     border-radius: 4px;
     font-size: 12px;
+    bottom: -23px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.search-button:hover .tooltip,
+.mic-button:hover .tooltip{
+    opacity: 1;
 }
 .search-bar::placeholder{
     font-family: Roboto, Arial;
