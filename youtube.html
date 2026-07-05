@@ -9,13 +9,14 @@
     <style>
         p{
             font-family: Roboto, Arial;
-            margin: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
         .thumbnail {
-            width: 300px;
+            width: 100%;
         }
         .thumbnail2 {
-            width: 300px;
+            width: 100%;
         }
 
         .search-bar {
@@ -111,6 +112,12 @@
             display: grid;
             grid-template-columns: 50px 1fr;
         }
+        video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;   
+            row-gap: 40px;
+        }
     </style>
 </head>
 
@@ -120,7 +127,7 @@
     <div class="video-grid">
 
     <!-- First Video -->
-    <div class="preview1">
+<div class="preview1">
 
         <div class="thumbnail-row">
             <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
