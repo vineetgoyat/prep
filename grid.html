@@ -4,9 +4,24 @@
         <title>Grid Practice</title>
     </head>
     <body>
-        <div>
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            ">
+            <div style="background-color:lightblue">div1</div>
+            <div style="background-color:lightpink">div2<p>hello</p></div>
+            <div style="background-color:lightgreen">div3</div>
+        </div>
+
+        <div style="
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            ">
             <div style="background-color:lightblue">div1</div>
             <div style="background-color:lightpink">div2</div>
+            <div style="background-color:lightgreen">div3</div>
         </div>
+
     </body>
 </html>
