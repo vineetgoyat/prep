@@ -4,5 +4,16 @@
     bottom: 0;
     top: 55px;
     background-color: rgb(250, 250, 250);
-    width: 80px;
+    width: 72px;
+}
+.sidebar-link{
+    background-color:pink;
+    color:black;
+    display: flex;
+    align-items: center;
+    height: 93px;
+
+}
+.sidebar:hover{
+    background-color: rgb(235, 235, 235);
 }
