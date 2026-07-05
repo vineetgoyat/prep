@@ -8,18 +8,22 @@
 }
 .sidebar-link{
     background-color:white;
-    color:black;
+    color:gray;
     display: flex;
-    align-items: center;
     height: 93px;
+    align-items: center;
+    justify-content:center;
 
 }
 .sidebar:hover{
     background-color: rgb(235, 235, 235);
 }
-.sidebar-icons{
-    height:3px;
+
+.sidebar-link img{
+    height:24px;
+    
 }
 .sidebar-text{
-    height:10px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
 }
