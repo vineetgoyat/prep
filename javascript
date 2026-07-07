@@ -85,8 +85,9 @@
   </body>
   </html>
 
-    
-
-
+15.template literals:- template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them. Template literals are enclosed by the back-tick (` `) (grave accent) character instead of double or single quotes.
+  let wish1= 'Porche car';
+  let wish2 ='island';
+  console.log(`wish list ${wish1},${wish2}`);
 
 */
