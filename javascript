@@ -100,4 +100,5 @@ console.log(typeof("hello")); //string
 console.log(typeof(123)); //number
 typeof is used to check the datatype of any variable or value. It returns a string indicating the type of the unevaluated operand.
 
+20. hoisting:- hoisting jo hota hai voh na variable aur function declarations ko unke scope ke top par move kar deta hai. Iska matlab hai ki aap variables aur functions ko unke declaration se pehle use kar sakte hain. JavaScript mein, variables aur functions ko unke scope ke top par hoist kiya jata hai, lekin sirf unke declarations hi hoist hote hain, na ki unke initializations.
 */
