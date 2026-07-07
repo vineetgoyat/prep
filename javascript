@@ -127,7 +127,7 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 - js is single threaded because it has only one call stack so it only execute one command at a time.
 -interpreted : execute line by line at run time, it does not need to be compiled before execution.
 -JIT: just in time , it coverts the machine code into the js code just before the execution dynamically.
--
+-pototype based: it is bcz it object interit the properties from other object rather than take it from the blueprints of objects
 
 24.
 */
