@@ -113,4 +113,6 @@ Lekin dhyan rakhne wali baat yeh hai:
 Sirf declarations hoist hote hain, initializations (values) nahi.
 var aur functions ko aap unke declaration se pehle use kar sakte hain (var aapko undefined dega).
 let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein rehte hain. Isliye unhe declaration se pehle use karne par error aata hai.
+
+21. javascript is object oriented programming language
 */
