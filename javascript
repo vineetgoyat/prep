@@ -135,6 +135,8 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 25. it use <script> tag to connect html with js file
 26. various listeners are there one of them is btn.onclick()=>{}
 27.js is used to grab any elements from the DOM.
-28.
+28.fcn are first class objects in js, so it is a functional programming style language, also it is object oriented programming language bcz it treat everthing as a object, where it also follows the inheritance concept, so it is multiparadigm programming language.
+29. it can work asyncronously thanks to promise API, async await, callback functions, event loop, setTimeout(), setInterval() etc.
+
 
 */
