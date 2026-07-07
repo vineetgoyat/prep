@@ -92,4 +92,12 @@
   let wish2 ='island';
   console.log(`wish list ${wish1},${wish2}`);
 
+18. array
+   let arr= [1,1,1,1,1,1,1,1,1,1];
+
+19.typeof we can use here like 
+console.log(typeof("hello")); //string
+console.log(typeof(123)); //number
+typeof is used to check the datatype of any variable or value. It returns a string indicating the type of the unevaluated operand.
+
 */
