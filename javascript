@@ -125,7 +125,8 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 
 23. js is high level because it collects garbage automatically so it manages memory, also extract hardware level complexities.
 - js is single threaded because it has only one call stack so it only execute one command at a time.
--
+-interpreted : execute line by line at run time, it does not need to be compiled before execution.
+-JIT: just in time , it coverts the machine code into the js code just before the execution dynamically.
 -
 
 24.
