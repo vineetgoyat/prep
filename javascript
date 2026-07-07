@@ -131,5 +131,7 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 -multiparadigm: it supports multiple style of programming like :oops, functional, procedural etc.
 -dynamic: variables are typed at run time, so that data types can be cahnged during execution.
 -non blocking event loops:- offloads the tasks to the kernel of the system so that the main execution will be free to execute without waiting.
-24.
+24.it handles IO intensive work , it has non blocking event loop, which supports single thread model which queue up the 
+25. it use <script> tag to connect html with js file
+26. 
 */
