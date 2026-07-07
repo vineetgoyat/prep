@@ -128,6 +128,8 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 -interpreted : execute line by line at run time, it does not need to be compiled before execution.
 -JIT: just in time , it coverts the machine code into the js code just before the execution dynamically.
 -pototype based: it is bcz it object interit the properties from other object rather than take it from the blueprints of objects
-
+-multiparadigm: it supports multiple style of programming like :oops, functional, procedural etc.
+-dynamic: variables are typed at run time, so that data types can be cahnged during execution.
+-non blocking event loops:- offloads the tasks to the kernel of the system so that the main execution will be free to execute without waiting.
 24.
 */
