@@ -141,5 +141,6 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 31. it can run on server thanks to node.js, which is a runtime environment for js, it can run on any platform like windows, linux, mac etc.
 32.interaction style uses file system APIs. can run code on server by pulling up terminal with node command.
 33. highly supported by the browsers 
-34. chrome has v8 powerful engine which support js
+34. chrome has v8 powerful engine which support js.
+35.react is build on the top of javascript, react is a library of js.
 */
