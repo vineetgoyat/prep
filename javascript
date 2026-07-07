@@ -22,7 +22,7 @@
         }
             }
         }
-switch (day) {
+9. switch (day) {
     case 1:
         console.log("Monday");
         break;
@@ -47,4 +47,5 @@ switch (day) {
     default:
         console.log("Invalid day");     
 }   
+10. loops:- for,forof, foreach, while, do while
 */                    
