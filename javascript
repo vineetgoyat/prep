@@ -22,4 +22,14 @@
         }
             }
         }
+switch (ui) {
+    case id 1:
+        console.log("Hi")
+        break;
+    case id 2:
+        console.log("Hello")
+        break;
+    default:
+        console.log("Bye")
+}   
 */                    
