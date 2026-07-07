@@ -115,4 +115,15 @@ var aur functions ko aap unke declaration se pehle use kar sakte hain (var aapko
 let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein rehte hain. Isliye unhe declaration se pehle use karne par error aata hai.
 
 21. javascript is object oriented programming language
+
+22. this keyword:- this keyword refers to the object it belongs to. It has different values depending on where it is used:
+- In a method, this refers to the owner object.
+- Alone, this refers to the global object (in browsers, it's the window object).
+- In a function, this refers to the global object (in strict mode, it is undefined).
+- In an event, this refers to the element that received the event.
+- Methods like call(), apply(), and bind() can refer this to any object.
+
+23. js is high level because it collects garbage automatically so it manages memory, also extract hardware level complexities.
+
+24.
 */
