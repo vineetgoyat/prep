@@ -67,7 +67,26 @@
 
 15. many events can triggered in js, we can customize some of them to fire at ideal time 
   syntax:-
-  
+  <!DOCTYPE html>
+  <html>
+  <head></head>
+  <body>
+  <button id="test"> click me </button>
+    <script>
+
+    var test = document.getElementById("test");
+
+    test.onclick= function(){
+    console.log("happy birthday"):
+    }
+
+
+    </script>
+</body>
+  </html>
+
+    
+
 
 
 */
