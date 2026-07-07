@@ -48,4 +48,9 @@
         console.log("Invalid day");     
 }   
 10. loops:- for,forof, foreach, while, do while
-*/                    
+ foreach;- array.foreach(function(day,month){
+ console.log(day,month);})
+}
+ foreach:- array.foreach(function(index,element){
+ console.log(index,element);})  
+*/
