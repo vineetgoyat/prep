@@ -101,4 +101,16 @@ console.log(typeof(123)); //number
 typeof is used to check the datatype of any variable or value. It returns a string indicating the type of the unevaluated operand.
 
 20. hoisting:- hoisting jo hota hai voh na variable aur function declarations ko unke scope ke top par move kar deta hai. Iska matlab hai ki aap variables aur functions ko unke declaration se pehle use kar sakte hain. JavaScript mein, variables aur functions ko unke scope ke top par hoist kiya jata hai, lekin sirf unke declarations hi hoist hote hain, na ki unke initializations.
+Aapki definition kaafi hadd tak sahi hai aur core concept ko ache se samjhati hai, lekin ismein ek choti si cheez hai jo modern JavaScript (ES6+) ke hisab se thodi adhuri hai.
+Aapne bilkul perfect bola ki sirf declarations hoist hote hain, initializations nahi.
+Chaliye isko thoda aur accurate banate hain, kyunki interviewers ya standard coding mein var, let, aur const ke beech ka farq poochha jata hai.
+Aapki definition mein kya sudhaar chahiye?
+Aapne likha: "Iska matlab hai ki aap variables aur functions ko unke declaration se pehle use kar sakte hain."
+Yeh baat sirf var aur normal functions par apply hoti hai. Agar aap let aur const ke sath declaration se pehle variable use karenge, toh JavaScript error de dega (ReferenceError).
+Ek perfect aur complete definition aisi hogi:
+Hoisting JavaScript ka ek aisa behavior hai jahan variable aur function declarations ko execution se pehle unke scope ke top par move kar diya jata hai.
+Lekin dhyan rakhne wali baat yeh hai:
+Sirf declarations hoist hote hain, initializations (values) nahi.
+var aur functions ko aap unke declaration se pehle use kar sakte hain (var aapko undefined dega).
+let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein rehte hain. Isliye unhe declaration se pehle use karne par error aata hai.
 */
