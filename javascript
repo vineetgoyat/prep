@@ -139,6 +139,6 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 29. it can work asyncronously thanks to promise API, async await, callback functions, event loop, setTimeout(), setInterval() etc.
 30. which support async await syntax
 31. it can run on server thanks to node.js, which is a runtime environment for js, it can run on any platform like windows, linux, mac etc.
-32.interaction style uses file system APIs
+32.interaction style uses file system APIs. can run code on server by pulling up terminal with node command.
 
 */
