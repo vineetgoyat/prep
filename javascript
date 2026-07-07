@@ -53,4 +53,9 @@
 }
  foreach:- array.foreach(function(index,element){
  console.log(index,element);})  
+
+ fat arrow function:- const sum = (a,b) => a+b;
+
+ sum ()=>{
+    console.log("Hello");}
 */
