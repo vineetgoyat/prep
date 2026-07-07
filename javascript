@@ -48,14 +48,26 @@
         console.log("Invalid day");     
 }   
 10. loops:- for,forof, foreach, while, do while
- foreach;- array.foreach(function(day,month){
- console.log(day,month);})
-}
- foreach:- array.foreach(function(index,element){
- console.log(index,element);})  
+    foreach;- array.foreach(function(day,month){
+    console.log(day,month);})
+    }
+    foreach:- array.foreach(function(index,element){
+    console.log(index,element);})  
 
- fat arrow function:- const sum = (a,b) => a+b;
+11. fat arrow function:- const sum = (a,b) => a+b;
 
- sum ()=>{
-    console.log("Hello");}
+    sum ()=>{
+        console.log("Hello");}
+
+12. array methods:- push(), pop(), shift(), unshift(), slice(), splice(), indexOf(), includes(), find(), filter(), map(), reduce()
+
+13. string methods:- length, toUpperCase(), toLowerCase(), trim(), slice(), substring(), replace(), includes(), indexOf(), charAt(), split()
+
+14. object methods:- Object.keys(), Object.values(), Object.entries(), Object.assign(), Object.freeze(), Object.seal()
+
+15. many events can triggered in js, we can customize some of them to fire at ideal time 
+  syntax:-
+  
+
+
 */
