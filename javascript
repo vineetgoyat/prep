@@ -133,5 +133,8 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 -non blocking event loops:- offloads the tasks to the kernel of the system so that the main execution will be free to execute without waiting.
 24.it handles IO intensive work , it has non blocking event loop, which supports single thread model which queue up the 
 25. it use <script> tag to connect html with js file
-26. 
+26. various listeners are there one of them is btn.onclick()=>{}
+27.js is used to grab any elements from the DOM.
+28.
+
 */
