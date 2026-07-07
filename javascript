@@ -124,6 +124,7 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 - Methods like call(), apply(), and bind() can refer this to any object.
 
 23. js is high level because it collects garbage automatically so it manages memory, also extract hardware level complexities.
+- js is single threaded because it has only one call stack so it only execute one command at a time 
 
 24.
 */
