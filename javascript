@@ -65,7 +65,9 @@
 
 14. object methods:- Object.keys(), Object.values(), Object.entries(), Object.assign(), Object.freeze(), Object.seal()
 
-15. many events can triggered in js, we can customize some of them to fire at ideal time 
+15. date methods:- Date.now(), Date.parse(), Date.UTC(), Date.getDate(), Date.getDay(), Date.getFullYear(), Date.getHours(), Date.getMilliseconds(), Date.getMinutes(), Date.getMonth(), Date.getSeconds(), Date.getTime()
+
+16. many events can triggered in js, we can customize some of them to fire at ideal time 
   syntax:-
   <!DOCTYPE html>
   <html>
@@ -85,7 +87,7 @@
   </body>
   </html>
 
-15.template literals:- template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them. Template literals are enclosed by the back-tick (` `) (grave accent) character instead of double or single quotes.
+17.template literals:- template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them. Template literals are enclosed by the back-tick (` `) (grave accent) character instead of double or single quotes.
   let wish1= 'Porche car';
   let wish2 ='island';
   console.log(`wish list ${wish1},${wish2}`);
