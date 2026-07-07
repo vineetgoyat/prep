@@ -148,5 +148,6 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 38. DOM document object the most imp. object in javascript, is used to represent the structure of html, it is present in variable document when we load the page, document obj have many element obj.
 39. through document obj we can search for various elements - .querySelector()
     through element objects:- we can listen or know the events done by user on the page - .addEventListeners()
-    element objects - change the style and appearence of the page - .style, .color, 
+    element objects - change the style and appearence of the page - .style, .color
+40. function keyword for fcn, Dot (.) for the methods like:- .toUpperCase(), .sort(), .indexOf()
 */
