@@ -144,5 +144,6 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
 34. chrome has v8 powerful engine which support js.
 35.react is build on the top of javascript, react is a library of js.
 36. node.js is the runtime environment of js, help us to interact with other servers and write the APIs.
+37. node.js also has the same v8 engine as chrome has.
 
 */
