@@ -156,5 +156,5 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
    synchronous js is in which execution is line by line 
 43.a funtion is passed as an argument to another function is called callback fcn.
 44.⁠ ⁠html:- labelling of page, answers what question, structure of the page
-45. 
+45. for notes go to mdn 
 */
