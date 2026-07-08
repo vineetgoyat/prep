@@ -151,4 +151,8 @@ let aur const bhi hoist hote hain, lekin voh ek Temporal Dead Zone (TDZ) mein re
     element objects - change the style and appearence of the page - .style, .color
 40. function keyword for fcn, Dot (.) for the methods like:- .toUpperCase(), .sort(), .indexOf()
 41. fat arrow fcn :- (a,b)=> a+b;
+42. ⁠funtion keyword for functions, . for methods (.sort(), .toUpperCase(), .indexOf()).
+42.asynchronous js is in which we give the priority to those who require less time of completion.
+   synchronous js is in which execution is line by line 
+
 */
